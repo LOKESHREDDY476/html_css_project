@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="first">
+            <img src="./Asset/logo/i.png" alt="IND" class="IND" />
+            <select name="Country" id="COU">
+                <option value="#">IND</option>
+            </select>
+            <number class="num">+919392420476</number>
+        </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Wish List</a></li>
+                <li><a href="#">Shopping</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Close</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="second">
+            <div class="logo">
+                <img src="./Asset/logo/Logo.png" alt="logo" class="logo" />
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Latest<sup>Hot</sup></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <div style="display: flex; align-items: center;">
+                    <li><input type="search" id="search" name="query" placeholder="Search Products" required /></li>
+                    
+                    <span style="margin-left: -20px;"><i class="fa fa-magnifying-glass"></i></span>
+                    
+                    </div>
+                    <li id="search"><i class="fa-regular fa-heart" style="border-radius: 70%;background-color: white;"><sup style="border-radius:15px;background-color:blue;padding: 20%;">02</sup></i></li>
+                    <li id="search"><i class="fa-solid fa-cart-shopping" style="border-radius: 70%;background-color: white;"><sup style="border-radius:15px;background-color:  blue;padding: 20%;">02</sup></i></li>
+                    <li id="search"><input type="submit" value="Sign in" class="signup" /></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <section class="hero">
+        <div class="image-container">
+            <img src="./Asset/hero/hero_man.png" alt="hero_man" class="foreground-image" />
+            <div class="text-container">
+                <p class="discountp"><i>60% Discount</i></p>
+                <p class="discount"><strong>Winter <br>Collection</strong></p>
+                <p class="discount">Best cloth by collection 2020!</p>
+                <input class="discount-shop" type="submit" value="Shop Now" />
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-images">
+            <div class="category-item">
+                <img src="./Asset/categori/cat1.jpg" alt="cat1" />
+                <div class="category-text" id="cat1">
+                    Women's Cloth <br><strong>Best new Deals</strong> <br><i>New Collection</i>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="./Asset/categori/cat2.jpg" alt="cat2" />
+                <div class="category-text" id="cat2">
+                    <i>Discount!</i> <br><b>Winter Collection</b><br>New Collection
+                </div>
+            </div>
+            <div class="category-item" >
+                <img src="./Asset/categori/cat3.jpg" alt="cat3" />
+                <div class="category-text"id="cat3">
+                    Men's cloth <br> <strong>Best New Deals</strong> <br><i>New Collection</i>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="latest-products">
+        <h2 style="font-size: 35px;">Latest Products</h2>
+        <div class="list"></div>
+        <ul class="listul">
+            <li class="listli" style="color: rgb(247, 43, 43)">All</li>
+            <li class="listli">New</li>
+            <li class="listli">Featured</li>
+            <li class="listli">Offer</li>
+        </ul>
+        <hr style="margin-bottom: 10px;">
+
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="./Asset/categori/product1.png" alt="product1" />
+                <h4>Product Name 1</h4>
+                <p>$29.99 <del style="color: red;">$40.00</del></p>
+                <div class="reviews">
+                   
+                    <span class="stars"> <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i></span>
+                    <span class="reviews-count">(24 reviews)</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./Asset/categori/product2.png" alt="product2" />
+                <h4>Product Name 2</h4>
+                <p>$19.99 <del style="color: red;">$30.00</del></p>
+                <div class="reviews">
+                   
+                    <span class="stars"> <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i></span>
+                    <span class="reviews-count">(12 reviews)</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./Asset/categori/product3.png" alt="product3" />
+                <h4>Product Name 3</h4>
+                <p class="product3new">New</p>
+                <p>$39.99 <del style="color: red;">$60.00</del></p>
+                <div class="reviews">
+                    <span class="stars">
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i></span>
+                    <span class="reviews-count">(25 reviews)</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./Asset/categori/product4.png" alt="product4" />
+                <h4>Product Name 4</h4>
+                <p>$29.99 <del style="color: red;">$40.00</del></p>
+                <div class="reviews">
+                    <span class="stars"> <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i></span>
+                    <span class="reviews-count">(15 reviews)</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./Asset/categori/product5.png" alt="product5" />
+                <h4>Product Name 5</h4>
+                <p>$49.99 <del style="color: red;">$70.00</del></p>
+                <div class="reviews">
+                    <span class="stars"> <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i></span>
+                    <span class="reviews-count">(10 reviews)</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./Asset/categori/product6.png" alt="product6" />
+                <h4>Product Name 6</h4>
+                <p>$19.99 <del style="color: red;">$40.00</del></p>
+                <div class="reviews">
+                    <span class="stars"> <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i></span>
+                    <span class="reviews-count">(14 reviews)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop">
+        <img src="./Asset/categori/card-man.png" alt="card-man" class="fbman" />
+        <div class="shoptext-container">
+
+            <p class="shoptext"><strong><b>Find the best product <br>from our shop</b></strong></p>
+            <p class="shoptext">Designers who are interested do</p>
+            <input type="submit" value="Shop Now" class="shoptext" />
+            <img src="./Asset/categori/card-shape.png" alt="card-shape" class="foreground" />
+        </div>
+    </section>
+    <section class="collections">
+        <h4>Collections</h4>
+        <div class="collection-images">
+            <div class="collctn-image" style="width: 100%;">
+                <div class="para">
+                    <p class="collpara"><strong>Best Collection<br>of This Month</strong><br>Designers are the
+                        interesting
+                        crea</p>
+                    <input type="submit" value="Shop Now" class="collectionshop" />
+                </div>
+                    <img src="./Asset/collection/collection1.png" alt="collection1" class="coll1" width="100%"
+                        height="100%" />
+               
+            </div>
+            <div class="right-side">
+                <img src="./Asset/collection/collection2.png" alt="collection2" class="coll2"
+                    style="width: 500px !important;" />
+
+                <div class="coll3-coll5">
+                    <div >
+
+                    <span class="coll3">Mens-Tshirt</span>
+                    <img src="./Asset/collection/collection3.png" alt="collection3" width="100%" height="100%" />
+                </div>
+            <div>
+                    <p class="coll4">Mens-Jeans</p>
+                    <img src="./Asset/collection/collection4.png" alt="collection4"   width="100%" height="100%" />
+                </div>
+            <div>
+                    <p class="coll5">Mens-Winter-Jacket</p>
+                    <img src="./Asset/collection/collection5.png" alt="collection5"   width="100%" height="100%" />
+                </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="collp">
+                <p class="coll3">Mens-Tshirt</p>
+                <p class="coll4">Mens-Jeans</p>
+                <p class="coll5">Mens-Winter-Jacket</p>
+            </div> -->
+           
+    </section>
+
+
+    <section class="offers">
+
+
+        <!-- <img src="./Asset/collection/latest-offer.png" alt="latest-offer"/> -->
+        <div class="latest">
+            <h4>Get Our <br>Latest Offers News</h4>
+            <p>Subscribe new latter</p>
+            <input type="email" id="em" name="email" minlength="1" maxlength="20" placeholder="Your email here" />
+            <span style="margin-left: -20px;"></span><input type="submit" name="submit" value="Shop now" class="blue" /></span>
+        </div>
+    </section>
+    <section class="icons">
+        <div>
+            <p class="center"><i class="fa-solid fa-truck-fast"></i>free shipping method</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius qui at inventore natus et sequi ea
+                fuga aliquam velit laudantium atque iure laboriosam eveniet totam, beatae quod, vitae perspiciatis?</p>
+        </div>
+        <div>
+            <p class="center"><i class="fa-solid fa-unlock"></i>security</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dicta sequi harum minima obcaecati facere
+                eveniet distinctio incidunt eos modi autem voluptate dolorem nostrum, quo eius dolor, ipsum accusantium
+                impedit.</p>
+        </div>
+        <div>
+            <p class="center"><i class="fa-solid fa-helicopter"></i></i>helicopter</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, quis harum reprehenderit laborum quod
+                voluptate, vero temporibus numquam fuga debitis, vel explicabo! Necessitatibus quod aperiam saepe vitae
+                expedita explicabo distinctio!</p>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <h4>Gallery</h4>
+        <div class="gallery-images">
+            <img src="./Asset/gallery/gallery1.jpg" alt="gallery1" />
+            <img src="./Asset/gallery/gallery2.jpg" alt="gallery2" />
+            <img src="./Asset/gallery/gallery3.jpg" alt="gallery3" />
+            <img src="./Asset/gallery/gallery4.jpg" alt="gallery4" />
+            <img src="./Asset/gallery/gallery5.jpg" alt="gallery5" />
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footimages">
+                <img src="./Asset/logo/Logo.png" alt="AIT" width="150" />
+                <p>#63, 1st Floor, 16th Main, 8th Cross, BTM 1st Stage, Bangalore, India - 560029</p>
+            </div>
+            <div>
+                <h4><b>COMPANY</b></h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Offers & Discounts</a></li>
+                    <li><a href="#">Get Coupon</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4><b>New Products</b></h4>
+                <ul>
+                    <li><a href="#">Woman Cloth</a></li>
+                    <li><a href="#">Fashion Accessories</a></li>
+                    <li><a href="#">Man Accessories</a></li>
+                    <li><a href="#">Rubber made Toys</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4><b>Support</b></h4>
+                <ul>
+                    <li><a href="#">Frequently Asked Questions</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Report a Payment Issue</a></li>
+                    <!-- <i class="fas fa-star"></i> Filled star -->
+                    <!-- <i class="far fa-star"></i> Empty star -->
+
+                </ul>
+            </div> 
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+
+    </div>
+</footer>
+</body>
+
+</html>
